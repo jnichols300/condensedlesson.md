@@ -49,3 +49,64 @@ Methods are available on any element.
   - mouseover
 - .preventDefault()
 
+## Conditionals (35m /w ex)
+
+// Have an example somewhere where one of the more unusual "falsey" values (e.g., empty string) triggers a conditional.
+
+write and narrate through the following code (10m)
+
+```javascript
+var age = 24;
+if(age < 18) {
+  console.log("You're too young to enter this club! Get outta here")
+}
+else if(age > 18 && age < 21){
+  console.log("Come on in! But no Drinking!!")
+}
+else{
+  console.log("Come on in!")
+}
+```
+
+Conditionals will always follow this pattern. There is a key word(if, else if, else). Followed by an expression that will evaluate to true or false in parentheses. Then followed by code to execute when condition is met.
+
+What's wrong with the following code?:
+
+```javascript
+var age = 24;
+if(age > 21){
+  console.log("Come on in!")
+}
+else if(age > 75){
+  console.log("Come on in, but I don't know if this is the place for you!")
+}
+else{
+  console.log("get outta here youngin!")
+}
+```
+
+# Syntax & Semantic Naming
+
+## Syntax
+Variable syntax
+    camelCase
+  - First letter of first word lowercase. First letter of remaining words uppercase.
+  - No spaces or punctuation between words.
+
+
+### While Loop
+```javascript
+var i = 0;
+while(i < 10){
+  console.log(i)
+  // don't increment at first
+}
+```
+### For Loop
+```javascript
+var step;
+for (step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
+```
