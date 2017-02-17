@@ -53,7 +53,7 @@ Methods are available on any element.
 
 // Have an example somewhere where one of the more unusual "falsey" values (e.g., empty string) triggers a conditional.
 
-write and narrate through the following code (10m)
+write and narrate through the following code
 
 ```javascript
 var age = 24;
@@ -70,7 +70,7 @@ else{
 
 Conditionals will always follow this pattern. There is a key word(if, else if, else). Followed by an expression that will evaluate to true or false in parentheses. Then followed by code to execute when condition is met.
 
-What's wrong with the following code?:
+Broken code example below:
 
 ```javascript
 var age = 24;
