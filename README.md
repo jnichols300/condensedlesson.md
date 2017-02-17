@@ -113,18 +113,9 @@ for (step = 0; step < 5; step++) {
 
 # JS Debugging
 
-
 ## Debugging Javascript
 
-As applications and websites get more and more complex, we need increasingly powerful tools to help us detect bugs, typos, implementation errors – and fix them quickly and efficiently.
-
-We've already been using the **Chrome Developer Tools**, but today we'll dive deeper into some of the features we can use to debug JavaScript.
-
-## Using Chrome dev tools to debug JavaScript 
-
 #### The Sources Panel
-
-Open the starter code in Chrome and make sure the chrome dev-tools panel is open. Go to the Sources panel.
 
 The Sources panel helps us visualize what's going on when we load JavaScript code. It provides a way for us to debug our code in an interactive way. Follow the steps below to explore the Sources panel:
 
